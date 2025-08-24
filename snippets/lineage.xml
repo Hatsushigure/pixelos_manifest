@@ -226,4 +226,11 @@
   <project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,pakala-vendor" revision="refs/changes/87/436387/1" remote="LineageOS" />
   <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" revision="refs/changes/25/436425/1" remote="LineageOS" />
 
+  # Xiaomi 13 (fuxi) files
+  <project path="device/xiaomi/fuxi" name="LineageOS/android_device_xiaomi_fuxi" groups="fuxi" remote="LineageOS" />
+  <project path="device/xiaomi/sm8550-common" name="LineageOS/android_device_xiaomi_sm8550-common" groups="fuxi" remote="LineageOS" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" groups="fuxi" remote="LineageOS" />
+  <project path="kernel/xiaomi/sm8550" name="LineageOS/android_kernel_xiaomi_sm8550" groups="fuxi" remote="LineageOS" />
+  <project path="kernel/xiaomi/sm8550-devicetrees" name="LineageOS/android_kernel_xiaomi_sm8550-devicetrees" groups="fuxi" remote="LineageOS" />
+  <project path="kernel/xiaomi/sm8550-modules" name="LineageOS/android_kernel_xiaomi_sm8550-modules" groups="fuxi" remote="LineageOS" />
 </manifest>
