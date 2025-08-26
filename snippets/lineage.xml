@@ -230,5 +230,5 @@
    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" groups="xiaomi,fuxi" remote="LineageOS" />
 
   <!-- missing repo in pixelos-->
-   <project path="hardware/qcom_thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom" remote="LineageOS" />
+   <project path="hardware/qcom/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom" remote="LineageOS" />
   </manifest>
