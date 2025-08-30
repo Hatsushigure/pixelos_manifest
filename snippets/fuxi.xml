@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="Shigure"
+        fetch="https://ghfast.top/https://github.com/Hatsushigure"
+        revision="refs/heads/fifteen" />
+
+    <project path="device/xiaomi/sm8550-common" name="android_device_xiaomi_sm8550-common"
+        groups="xiaomi,fuxi,sm8550" remote="Shigure" />
+    <project path="device/xiaomi/fuxi" name="android_device_xiaomi_fuxi"
+        groups="xiaomi,fuxi" remote="Shigure" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" groups="xiaomi,fuxi"
+        remote="Shigure" />
+    <project path="kernel/xiaomi/sm8550-modules"
+        name="android_kernel_xiaomi_sm8550-modules" groups="xiaomi,fuxi,sm8550"
+        remote="Shigure" />
+    <project path="kernel/xiaomi/sm8550" name="android_kernel_xiaomi_sm8550"
+        groups="xiaomi,fuxi,sm8550" remote="Shigure" />
+    <project path="kernel/xiaomi/sm8550-devicetrees"
+        name="android_kernel_xiaomi_sm8550-devicetrees" groups="xiaomi,fuxi,sm8550"
+        remote="Shigure" />
+
+</manifest>
